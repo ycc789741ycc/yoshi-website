@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyoshi_website=self.webpackChunkyoshi_website||[]).push([[949],{5570:function(e){e.exports=JSON.parse('{"allTagsPath":"/yoshi-website/blog/tags","name":"facebook","count":1,"permalink":"/yoshi-website/blog/tags/facebook"}')}}]);
