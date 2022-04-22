@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Yoshi\'s website',
-  tagline: 'Dinosaurs are cool',
+  title: 'Yoshi\'s Blog',
+  tagline: 'Welcome to my blog',
   url: 'https://ycc789741ycc.github.io',
   baseUrl: '/yoshi-website/',
   onBrokenLinks: 'throw',
@@ -25,13 +25,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/ycc789741ycc',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ycc789741ycc',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -44,9 +44,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Home Page',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Home Page Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -54,11 +54,12 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Tech Blog',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/side_project', label: 'Side Project', position: 'left'},
+          {to: '/life_style', label: 'Life Style', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ycc789741ycc',
             label: 'GitHub',
             position: 'right',
           },
@@ -68,28 +69,20 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Tech Blog',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Introduce',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Social Media',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/yoshi-taka-36201b194/',
               },
             ],
           },
@@ -97,8 +90,12 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Side Project',
+                to: '/side_project',
+              },
+              {
+                label: 'Life Style',
+                to: '/life_style',
               },
               {
                 label: 'GitHub',
@@ -107,7 +104,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Yoshi's Blog, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

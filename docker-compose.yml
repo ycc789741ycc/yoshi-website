@@ -14,8 +14,11 @@ services:
         - "13003:3000"
       volumes:
         - "./docs/:/docs/"
-        - "./blog/:/blog/"
+        - "./side_project/:/side_project/"
+        - "./life_style/:/life_style/"
         - "./docusaurus.config.js:/docusaurus.config.js"
+        - "./src:/src"
+        - "./static:/static"
       # networks:
       #   - yoshi-network
       environment:
