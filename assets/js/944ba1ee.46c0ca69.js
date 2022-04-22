@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkyoshi_website=self.webpackChunkyoshi_website||[]).push([[318],{2274:function(e){e.exports=JSON.parse('{"permalink":"/yoshi-website/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
