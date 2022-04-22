@@ -1,0 +1,11 @@
+FROM node:16
+
+LABEL maintainer="Yoshi <yoshi4878787@gmail.com>"
+
+WORKDIR /
+
+USER root
+
+COPY . /
+
+RUN yarn install

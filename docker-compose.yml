@@ -1,0 +1,32 @@
+services:
+  yoshi-website:
+      image: 'yoshi-website:0.1.0'
+      container_name: yoshi-website
+      user: root
+      build:
+        context: ./
+        dockerfile: DockerFile
+      deploy:
+        resources:
+          limits:
+            memory: 700M
+      ports:
+        - "13003:3000"
+      volumes:
+        - "./docs/:/docs/"
+        - "./blog/:/blog/"
+        - "./docusaurus.config.js:/docusaurus.config.js"
+      # networks:
+      #   - yoshi-network
+      environment:
+        - DEV=true
+      command:
+        - "sh"
+        - "start.sh"
+      restart: always
+      tty: true
+
+# networks:
+#   yoshi-network:
+#     external:
+#       name: yoshi-network
