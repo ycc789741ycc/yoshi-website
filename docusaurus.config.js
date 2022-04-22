@@ -9,7 +9,7 @@ const config = {
   title: 'Yoshi\'s website',
   tagline: 'Dinosaurs are cool',
   url: 'https://ycc789741ycc.github.io',
-  baseUrl: '/yoshi-website/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
