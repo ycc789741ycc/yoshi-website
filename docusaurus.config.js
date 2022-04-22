@@ -27,7 +27,13 @@ const config = {
           // Please change this to your repo.
           editUrl: 'https://github.com/ycc789741ycc',
         },
-        blog: {
+        side_project: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          editUrl:
+            'https://github.com/ycc789741ycc',
+        },
+        life_style: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
