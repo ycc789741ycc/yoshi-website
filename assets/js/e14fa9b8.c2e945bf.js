@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyoshi_website=self.webpackChunkyoshi_website||[]).push([[6506],{1393:function(s){s.exports=JSON.parse('{"allTagsPath":"/yoshi-website/life_style/tags","name":"docusaurus","count":4,"permalink":"/yoshi-website/life_style/tags/docusaurus"}')}}]);

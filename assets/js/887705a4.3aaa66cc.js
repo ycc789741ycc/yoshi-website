@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyoshi_website=self.webpackChunkyoshi_website||[]).push([[4499],{2083:function(e){e.exports=JSON.parse('{"allTagsPath":"/yoshi-website/life_style/tags","name":"hello","count":2,"permalink":"/yoshi-website/life_style/tags/hello"}')}}]);
