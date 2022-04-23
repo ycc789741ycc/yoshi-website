@@ -16,6 +16,46 @@ const config = {
   organizationName: 'ycc789741ycc', // Usually your GitHub org/user name.
   projectName: 'yoshi-website', // Usually your repo name.
 
+  //TODO https://docusaurus.io/docs/api/themes/configuration
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: 'side_project',
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: 'side_project',
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: 'side_project',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: 'life_style',
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: 'life_style',
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: 'life_style',
+      },
+    ],
+  ],
 
   presets: [
     [
@@ -27,13 +67,7 @@ const config = {
           // Please change this to your repo.
           editUrl: 'https://github.com/ycc789741ycc',
         },
-        side_project: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/ycc789741ycc',
-        },
-        life_style: {
+        blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
